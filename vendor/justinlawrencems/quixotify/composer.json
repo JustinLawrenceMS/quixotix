@@ -1,0 +1,29 @@
+{
+  "name": "justinlawrencems/quixotify",
+  "description": "A package to generate ipsum text from Don Quixote API",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Quixotify\\": "src/"
+    }
+  },
+  "keywords": ["ipsum", "don quixote", "text generator"],
+  "authors": [
+    {
+      "name": "Justin Lawrence",
+      "email": "justin@chiclay.com"
+    }
+  ],
+  "organization": "Chiclay's",
+  "donation_link": "https://quixote.at.chiclay.com",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "phpunit/phpunit": "^11.4"
+  }
+}

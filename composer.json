@@ -1,0 +1,25 @@
+{
+    "description": "Quixote Ipsum Generator Plugin",
+    "authors": [
+        {
+            "name": "Justin Lawrence, MS"
+        }
+    ],
+    "version": "1.0",
+    "organization":  "Chiclay's",
+    "homepage": "https://quixote.at.chiclay.com",
+    "require": {
+        "php": "^8.2",
+        "justinlawrencems/quixotify": "v1.0.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Quixotix\\": "src/Quixotix/"
+        }
+    }
+}

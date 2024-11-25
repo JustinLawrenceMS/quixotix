@@ -1,0 +1,135 @@
+[class*='quixotix'] {
+  font-family: Palatino;
+}
+.quixotix-header {
+    background-color: white;
+    height: 40% !important;
+    margin-top: 3em;
+    border-radius: 50%;
+    border-color: #ff99b3;
+    border-style: solid;
+    border-width: 1px;
+}
+.quixotix-billboard-text {
+    font-family: Palatino;
+    color: darkslateblue;
+    font-weight: lighter;
+    display: flex;
+    font-size: 4vw;
+    justify-content: center;
+}
+.quixotix-billboard-subtext {
+    display: flex;
+    justify-content: center;
+}
+.quixotix-text-node {
+    padding-left: 2em;
+}
+.quixotix-card {
+    background-color: white;
+    border-left-color: #ff99b3;
+    border-right-color: #ff99b3;
+    border-bottom-color: #ff99b3;
+    border-radius: 35px;
+    border-width: 1px;
+    border-style: solid;
+    border-top-style: none;
+    margin-top: 6vh;
+}
+
+.quixotix-code {
+    background-color: white;
+    color: darkslateblue;
+    border-color: #ff99b3;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}
+ul.quixotix-tabs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul.quixotix-tabs li{
+    background-color: slateblue;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+ul.quixotix-tabs li.quixotix-current{
+    background: #ff99b3;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+}
+ul.quixotix-tabs li.quixotix-current:hover,
+ul.quixotix-tabs li:hover {
+    background-color: #ffffff;
+    border-color: slateblue;
+    border-style: solid;
+    border-width: 1px;
+    color: darkslateblue;
+    font-size: 1.5em;
+}
+
+.quixotix-btn {
+    background-color: slateblue;
+    border-color: slateblue;
+    color: #ffffff;
+    font-size: 1em;
+    border-radius: 15px;
+}
+
+.quixotix-btn:hover {
+    background-color: #ff99b3;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.quixotix-tab-content{
+    display: none;
+    background: white;
+    padding: 15px;
+}
+
+.quixotix-tab-content.quixotix-current{
+    display: inherit;
+}
+
+.quixotix-number-input {
+    width: 60px;
+}
+
+/* For medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .quixotix-header,
+    .quixotix-card {
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+}
+
+/* For large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .quixotix-header,
+    .quixotix-card {
+        margin-right: 10em;
+        margin-left: 10em;
+    }
+}
+
+/* For extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .quixotix-header,
+    .quixotix-card {
+        margin-right: 20em;
+        margin-left: 20em;
+    }
+}
